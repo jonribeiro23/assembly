@@ -1,4 +1,6 @@
 dasm cleanmem.asm -f3 -v0 -ocart.bin
 
+dasm cleanmem.asm -f3 -v0 -ocart.bin -lcart.lst -scart.sym
+
 Color
 https://www.randomterrain.com/atari-2600-memories-tia-color-charts.html
