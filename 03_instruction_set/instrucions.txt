@@ -1,0 +1,8 @@
+LDA #80     ; Loads the A register with the literal
+              decimal value 80 (IMMEDIATE MODE)
+
+LDA $80     ; Loads the A register with the value
+              inside memory address $80 (ABSOLUTE MODE - ZERO PAGE)
+
+LDA #$80    ; Loads the A register with the literal
+              hexadecimal number $80 (same as 128 decimal)

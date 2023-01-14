@@ -5,7 +5,7 @@
 
 Start:
     sei             ; Disable interrupts
-    cld             ; DIsable the BCD decimal math mode
+    cld             ; Disable the BCD decimal math mode
     ldx #$FF        ; Loads the X register with #$FF
     txs             ; Transfer the X register to the stack pointer
 
